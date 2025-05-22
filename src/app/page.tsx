@@ -54,7 +54,7 @@ export default function Home() {
         //</div>
         }
       </section>
-      <section className="relative w-full h-[100lvh] flex items-center gap-10 flex-col z-10 bg-[#0E0E0F]">
+      <section className="relative w-full h-fit pb-10 flex items-center gap-10 flex-col z-10 bg-[#0E0E0F]">
         <h1 className="text-white mt-10 text-8xl font-mono max-w-300">Il bar <span className="font-black">numero 1</span> di Sant'Agata di Militello</h1>
         <div className="relative flex-row flex gap-36 mt-8 w-300">
           <div className="relative w-fit h-fit flex flex-col items-center">
@@ -79,7 +79,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="relative w-full py-10 bg-[#141415]">
+      {/*<section className="relative w-full py-10 bg-[#141415]">
         <div className="relative w-full h-full flex items-center justify-center gap-10">
           <div className="relative w-225 h-150">
             <div className="absolute top-0 left-0 w-full h-full filter brightness-50">
@@ -131,7 +131,7 @@ export default function Home() {
       </section>
       <footer className="relative w-full max-h-60 h-60 bg-[#232325]">
         <p className="ml-10 text-2xl font-sans text-white opacity-75 font-normal">Il bar Infinity</p>
-      </footer>
+      </footer>*/}
     </> 
   );
 }
