@@ -13,10 +13,10 @@ const Universe = () => {
             <UniverseBackground></UniverseBackground>
             <Planet></Planet>
             <Stars
-                radius={100}       // How far stars are from center
-                depth={50}         // Star field depth
-                count={5000}      // Number of stars
-                factor={6}         // Size factor
+                radius={100}   
+                depth={50}         
+                count={5000}      
+                factor={6}         
                 saturation={0}
                 fade
                 />

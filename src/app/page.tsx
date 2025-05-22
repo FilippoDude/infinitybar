@@ -43,16 +43,51 @@ export default function Home() {
         </div>
         <div className="relative">
           <h1 ref={titleRef} className="text-8xl font-sans text-white font-extrabold">Infinity bar</h1>
+          <div className="flex flex-row gap-2 items-end mt">
+            <button className=" px-2 py-1 border-1 border-white text-[#310047] opacity-75 text-xl bg-white">Luogo</button>
+            <button className=" px-2 py-1 border-1 border-white text-white opacity-75 text-xl">Orari</button>
+            <p className="text-xl text-white opacity-90">+39 383 392339039</p>
+          </div>
         </div>
         {//<div className="absolute items-center bottom-2 flex flex-col">
           //<p className=" text-xl font-sans text-white opacity-60 font-normal">Aperti dalle 8 alle 22</p>
         //</div>
         }
       </section>
+      <section className="relative w-full h-[100lvh] flex items-center gap-10 flex-col z-10 bg-[#0E0E0F]">
+        <h1 className="text-white mt-10 text-8xl font-mono max-w-300">Il bar <span className="font-black">numero 1</span> di Sant'Agata di Militello</h1>
+        <div className="relative flex-row flex gap-36 mt-8 w-300">
+          <div className="relative w-fit h-fit flex flex-col items-center">
+            <p className="text-white text-6xl font-black">ORARIO</p>
+            <p className="text-white text-3xl font-semibold opacity-90">- Lunedi a Sabato -</p>
+            <p className="text-white text-3xl font-bold">8:00 alle 22:00</p>
+            <p className="text-white text-3xl font-semibold opacity-90">- Domenica -</p>
+            <p className="text-white text-3xl font-bold">8:00 alle 18:00</p>
+          </div>
+          <div className="relative w-fit h-fit flex flex-col ">
+            <p className="text-white text-6xl font-black">LUOGO</p>
+            <p className="text-white text-3xl font-normal">In Sant'Agata di Militello</p>
+            <p className="text-white text-3xl font-semibold">Vicino l'ospedale</p>
+            <p className="text-white text-3xl font-bold ">Di fronte ad Acqua e Sapone</p>
+          </div>
+          <div className="relative w-fit h-fit flex flex-col">
+            <p className="text-white text-6xl font-black">SERVIZI</p>
+            <p className="text-white text-3xl font-bold opacity-90">- Rosticceria</p>
+            <p className="text-white text-3xl font-bold">- Pasticceria</p>
+            <p className="text-white text-3xl font-bold opacity-90">- Gelateria</p>
+
+          </div>
+        </div>
+      </section>
       <section className="relative w-full py-10 bg-[#141415]">
         <div className="relative w-full h-full flex items-center justify-center gap-10">
-          <div className="relative w-225 h-150 filter brightness-50">
-            <Image alt="Bar Image" src={"/aboutBackground.png"} fill={true}></Image>
+          <div className="relative w-225 h-150">
+            <div className="absolute top-0 left-0 w-full h-full filter brightness-50">
+              <Image alt="Bar Image" src={"/aboutBackground.png"} fill={true}></Image>
+            </div>
+            <div className="relative p-10">
+              <h2 className="font-bold text-white text-4xl"></h2>
+            </div>
           </div>
           <div className="flex flex-col gap-10">
             <div className="rounded-2xl overflow-hidden relative w-70 h-70 filter brightness-50">
