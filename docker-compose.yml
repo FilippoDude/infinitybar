@@ -1,4 +1,4 @@
-name: portfolio
+name: infinitybar
 services:
   website:
     image: node
