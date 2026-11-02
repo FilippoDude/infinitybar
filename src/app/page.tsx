@@ -46,7 +46,7 @@ export default function Home() {
           <div className="flex flex-row gap-2 items-end mt">
             <button className=" px-2 py-1 border-1 border-white text-[#310047] opacity-75 text-xl bg-white">Luogo</button>
             <button className=" px-2 py-1 border-1 border-white text-white opacity-75 text-xl">Orari</button>
-            <p className="text-xl text-white opacity-90">+39 383 392339039</p>
+            <p className="text-xl text-white opacity-90">+39 383 #########</p>
           </div>
         </div>
         {//<div className="absolute items-center bottom-2 flex flex-col">
@@ -67,8 +67,6 @@ export default function Home() {
           <div className="relative w-fit h-fit flex flex-col ">
             <p className="text-white text-6xl font-black">LUOGO</p>
             <p className="text-white text-3xl font-normal">In Sant'Agata di Militello</p>
-            <p className="text-white text-3xl font-semibold">Vicino l'ospedale</p>
-            <p className="text-white text-3xl font-bold ">Di fronte ad Acqua e Sapone</p>
           </div>
           <div className="relative w-fit h-fit flex flex-col">
             <p className="text-white text-6xl font-black">SERVIZI</p>
